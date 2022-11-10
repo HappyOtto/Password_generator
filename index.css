@@ -48,7 +48,7 @@ hr {
 }
 
 .output {
-    color: #10B981;
+    color: #55F991;
     width: 150px;
     height: 20px;
    
@@ -56,5 +56,6 @@ hr {
     background-color: #273549;
     text-align: center;
     padding: 18px 0px 10px 0px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 400;
 }
