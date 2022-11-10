@@ -1,0 +1,60 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 30;
+    color: whitesmoke;
+    background: #1F2937;
+    border: solid whitesmoke;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    font-size: 16px;
+}
+h1 {
+     font-weight: 800;
+}
+
+.rnd {
+    color: #10B981;
+    font-weight: 800;
+}
+
+p {
+    color: whitesmoke;
+     font-weight: 400;
+}
+
+button {
+    color: whitesmoke;
+    background: #10B981;
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
+
+hr {
+    border: 0.1px solid;
+    color: #2F3E53;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.output {
+    color: #10B981;
+    width: 150px;
+    height: 20px;
+   
+    border-radius: 5px;
+    background-color: #273549;
+    text-align: center;
+    padding: 18px 0px 10px 0px;
+    font-size: 12px;
+}
