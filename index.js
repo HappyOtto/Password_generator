@@ -4,8 +4,8 @@ let passLeft = document.getElementById("outputLeft")
 let passRight = document.getElementById("outputRight")
 
 function generatePassword() {
-    passLeft.textContent = ""
-    passRight.textContent = ""
+    passLeft.textContent = " "
+    passRight.textContent = " "
     for (let i = 0; i < 16; i++) {
     let l = Math.floor(Math.random() * characters.length) // calls random array cell 
     passLeft.textContent += characters[l]
