@@ -2,10 +2,11 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let passLeft = document.getElementById("outputLeft")
 let passRight = document.getElementById("outputRight")
-let recet = 0
+passLeft.textContent = "*****"
+passRight.textContent = "*****"
 function generatePassword() {
-    passLeft.textContent = recet
-    passRight.textContent = recet
+    passLeft.textContent = ""
+    passRight.textContent = ""
     for (let i = 0; i < 16; i++) {
     let l = Math.floor(Math.random() * characters.length) // calls random array cell 
     passLeft.textContent += characters[l]
